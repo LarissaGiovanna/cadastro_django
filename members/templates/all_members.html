@@ -1,0 +1,10 @@
+<html>
+<body>
+    <h1>Membros: </h1>
+    <ul>{%for x in mymembers%}
+        <li>{{x.firstname}}{{x.lastname}}
+            {%endfor%}
+        </li>
+    </ul>
+</body>
+</html>
